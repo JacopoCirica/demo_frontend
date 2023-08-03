@@ -255,7 +255,7 @@ async function generate_passages(topic, grade, keywords="") {
 	
 	
 	if(grade == 12){
-
+	console.log('test one')
 	fetch(`https://demo-adobe-de2576d8602d.herokuapp.com/`, {
     method: 'post',
     body: JSON.stringify(newPost)
